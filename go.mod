@@ -15,3 +15,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 	howett.net/plist v1.0.0
 )
+
+replace github.com/bitrise-io/go-xcode/v2 => github.com/mobile-service-au/go-xcode/v2 v2.0.0-alpha.23.0.20220930075028-38c9920a98d8

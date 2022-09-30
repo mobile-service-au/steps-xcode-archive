@@ -717,15 +717,16 @@ func (s XcodebuildArchiver) createCodesignManager(config Config) (codesign.Manag
 	}
 
 	opts := codesign.Opts{
-		AuthType:                   authType,
-		ShouldConsiderXcodeSigning: true,
-		TeamID:                     config.ExportDevelopmentTeam,
-		ExportMethod:               codesignConfig.DistributionMethod,
-		XcodeMajorVersion:          config.XcodeMajorVersion,
-		RegisterTestDevices:        config.RegisterTestDevices,
-		SignUITests:                false,
-		MinDaysProfileValidity:     config.MinDaysProfileValid,
-		IsVerboseLog:               config.VerboseLog,
+		AuthType:                       authType,
+		ShouldConsiderXcodeSigning:     true,
+		DownloadAssertsForXcodeSigning: false,
+		TeamID:                         config.ExportDevelopmentTeam,
+		ExportMethod:                   codesignConfig.DistributionMethod,
+		XcodeMajorVersion:              config.XcodeMajorVersion,
+		RegisterTestDevices:            config.RegisterTestDevices,
+		SignUITests:                    false,
+		MinDaysProfileValidity:         config.MinDaysProfileValid,
+		IsVerboseLog:                   config.VerboseLog,
 	}
 
 	project, err := projectmanager.NewProject(projectmanager.InitParams{
