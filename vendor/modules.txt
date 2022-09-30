@@ -55,7 +55,7 @@ github.com/bitrise-io/go-xcode/xcodeproject/xcodeproj
 github.com/bitrise-io/go-xcode/xcodeproject/xcscheme
 github.com/bitrise-io/go-xcode/xcodeproject/xcworkspace
 github.com/bitrise-io/go-xcode/xcpretty
-# github.com/bitrise-io/go-xcode/v2 v2.0.0-alpha.23
+# github.com/bitrise-io/go-xcode/v2 v2.0.0-alpha.23 => github.com/mobile-service-au/go-xcode/v2 v2.0.0-alpha.23.0.20220930084201-e4e99d4725ce
 ## explicit
 github.com/bitrise-io/go-xcode/v2/autocodesign
 github.com/bitrise-io/go-xcode/v2/autocodesign/certdownloader
@@ -79,6 +79,9 @@ github.com/bitrise-io/go-xcode/v2/xcpretty
 # github.com/bitrise-io/pkcs12 v0.0.0-20211108084543-e52728e011c8
 github.com/bitrise-io/pkcs12
 github.com/bitrise-io/pkcs12/internal/rc2
+# github.com/bitrise-steplib/steps-xcode-archive v0.0.0-20220920134325-9f4ef188d017
+## explicit
+github.com/bitrise-steplib/steps-xcode-archive/step
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
@@ -129,3 +132,4 @@ gopkg.in/yaml.v3
 # howett.net/plist v1.0.0
 ## explicit
 howett.net/plist
+# github.com/bitrise-io/go-xcode/v2 => github.com/mobile-service-au/go-xcode/v2 v2.0.0-alpha.23.0.20220930084201-e4e99d4725ce

@@ -1,4 +1,4 @@
-module github.com/bitrise-steplib/steps-xcode-archive
+module github.com/mobile-service-au/steps-xcode-archive
 
 go 1.16
 
@@ -8,6 +8,7 @@ require (
 	github.com/bitrise-io/go-utils/v2 v2.0.0-alpha.11
 	github.com/bitrise-io/go-xcode v1.0.9
 	github.com/bitrise-io/go-xcode/v2 v2.0.0-alpha.23
+	github.com/bitrise-steplib/steps-xcode-archive v0.0.0-20220920134325-9f4ef188d017
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/stretchr/testify v1.7.1
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
@@ -16,4 +17,4 @@ require (
 	howett.net/plist v1.0.0
 )
 
-replace github.com/bitrise-io/go-xcode/v2 => github.com/mobile-service-au/go-xcode/v2 v2.0.0-alpha.23.0.20220930075028-38c9920a98d8
+replace github.com/bitrise-io/go-xcode/v2 => github.com/mobile-service-au/go-xcode/v2 v2.0.0-alpha.23.0.20220930084201-e4e99d4725ce

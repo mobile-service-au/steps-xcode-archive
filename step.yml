@@ -68,7 +68,7 @@ is_always_run: false
 is_skippable: false
 toolkit:
   go:
-    package_name: github.com/bitrise-steplib/steps-xcode-archive
+    package_name: github.com/mobile-service-au/steps-xcode-archive
 inputs:
 - project_path: $BITRISE_PROJECT_PATH
   opts:
